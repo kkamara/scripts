@@ -40,7 +40,7 @@ let jsonContents;
 const runValidations = () => {
   const jsonFile = jsonFileExists(jsonPath, encoding);
   jsonContents = parseJSONContents(jsonFile);
-  validateJSONContents(jsonContents, encoding);
+  validateJSONContents(jsonContents, { encoding });
   console.log(jsonContents);
 };
 
