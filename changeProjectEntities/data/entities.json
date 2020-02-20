@@ -1,0 +1,9 @@
+{
+  "projectsPath": "/opt/lampp/htdocs",
+  "entities": {
+    "/opt/lampp/htdocs/laravel-react-ecommerce": {
+      "old": "vendor",
+      "new": "vendel"
+    }
+  }
+}
